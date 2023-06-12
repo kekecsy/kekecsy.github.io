@@ -23,12 +23,12 @@ li{
 	border-top: 1px solid #CCCCCC;
 	border-bottom: 1px solid #CCCCCC;
 }
-.nav ul{
+.nav>ul{
 	display: flex;
 	justify-content: center;
 	padding: 20px 0;
 }
-.nav ul li{
+.nav>ul>li{
 	position: relative;
 	margin: 0 20px;
 }
@@ -43,14 +43,12 @@ li{
 	display: none;
 	position: absolute;
 	top: 30px;
-	left: 0px;
+	left: -10px;
 	background: #f2f2f2;
 	padding: 10px;
-	width: 80px;
+	width: 200px;
 }
-.nav ul li:hover ul{
-	display: block;
-}
+
 .banner{
 	width: 1220px;
 	margin: auto;
