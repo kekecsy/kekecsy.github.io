@@ -55,6 +55,10 @@ li{
 	width: 156px;
 	cursor: pointer;
 }
+.wrap{
+	width: 1180px;
+	margin: 0 auto;
+}
 .banner{
 	width: 1220px;
 }
