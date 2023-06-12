@@ -60,7 +60,7 @@ li{
 	width: 100%;
 }
 .voicecover{
-	width: 280px;
+	float: left;
 }
 .voiceframe{
 	width:500px;
