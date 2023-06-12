@@ -49,7 +49,8 @@ li{
 	width: 200px;
 }
 .nav>ul>li:hover ul{
-	color:#f3f3f3;
+	display: block;
+	color: #f3f3f3;
 	text-decoration: none;
 	font-weight: normal;
 	width: 156px;
