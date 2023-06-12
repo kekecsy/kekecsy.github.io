@@ -71,7 +71,8 @@ li{
 }
 .voiceintro{
 	width: 220px;
-	heitht: 200px;
+	height: 200px;
+	float: right;
 }
 
 
