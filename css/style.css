@@ -59,6 +59,11 @@ li{
 	width: 1180px;
 	margin: 0 auto;
 }
+.nav li{
+	float: left;
+	width: 82px;
+	height: 70px;
+}
 .banner{
 	width: 1220px;
 }
