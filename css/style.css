@@ -63,14 +63,14 @@ li{
 	float: left;
 }
 .voiceframe{
-	width: 780px;
+	width: 1580px;
 	height: 240px;
 	border: 1px solid #ccc;
 	margin-left: auto;
 	margin-right: auto;
 }
 .voiceintro{
-	width: 480px;
+	width: 880px;
 	height: 200px;
 	float: left;
 	padding: 4px;
