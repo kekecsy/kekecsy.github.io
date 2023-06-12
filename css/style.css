@@ -42,8 +42,8 @@ li{
 .nav ul li ul{
 	display: none;
 	position: absolute;
-	top: 30px;
-	left: -10px;
+	top: 0px;
+	left: 0px;
 	background: #f2f2f2;
 	padding: 10px;
 	width: 200px;
