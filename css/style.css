@@ -50,10 +50,10 @@ li{
 }
 .nav>ul>li:hover ul{
 	display: block;
-	color: #f3f3f3;
 	text-decoration: none;
 	font-weight: normal;
 	width: 156px;
+	cursor: pointer;
 }
 .banner{
 	width: 1220px;
