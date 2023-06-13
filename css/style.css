@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body{
-	font-size: 25px;
+	font-size: 16px;
 }
 li{
 	list-style: none;
@@ -71,7 +71,6 @@ li{
 	width: 100%;
 	border-top: 1px solid #CCCCCC;
 	border-bottom: 1px solid #CCCCCC;
-	z-index: 2;
 }
 .nav>ul{
 	display: flex;
@@ -80,7 +79,8 @@ li{
 }
 .nav>ul>li{
 	position: absolute;
-	margin: 0px 20px;
+	margin: 0 20px;
+	z-index: 2;
 }
 .nav ul li a{
 	color: #333;
@@ -96,8 +96,7 @@ li{
 	left: 0px;
 	background: #f2f2f2;
 	padding: 10px;
-	width: 180px;
-	z-index: 2;
+	width: 200px;
 }
 .nav>ul>li:hover ul{
 	display: block;
