@@ -31,6 +31,7 @@ li{
 .info h3{
 	height: 140px;
 	font size: 30px;
+	text-decoration: none;
 	text-align: center;
 	color: #fff;
 	margin: 0 30px;
@@ -40,6 +41,7 @@ li{
 	opacity: 0;
 	font-size: 30px;
 	text-align: center;
+	text-decoration: none;
 	color:  #fff;
 	font-style: italic;
 	margin: 0 30px;
@@ -132,6 +134,7 @@ li{
 .item:hover .info{
 	opacity: 1;
 	transform: scale(1);
+	color: #fff222
 }
 .item:hover .info p{
 	opacity: 1;
