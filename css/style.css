@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body{
-	font-size: 30px;
+	font-size: 25px;
 }
 li{
 	list-style: none;
@@ -95,7 +95,7 @@ li{
 	top: 0px;
 	left: 0px;
 	background: #f2f2f2;
-	padding: 15px;
+	padding: 10px;
 	width: 180px;
 	z-index: 2;
 }
