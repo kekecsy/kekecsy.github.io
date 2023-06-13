@@ -42,7 +42,6 @@ li{
 	font-size: 30px;
 	text-decoration: none;
 	color:  #fff;
-	font-style: italic;
 	margin: 0 30px;
 	padding-top: 10px;
 	border-top: 1px solid rgba(255,255,255，.5);
@@ -78,8 +77,9 @@ li{
 	padding: 20px 0;
 }
 .nav>ul>li{
-	position: relative;
+	position: absolute;
 	margin: 0 20px;
+	transition: all .4s ease-in-out;
 }
 .nav ul li a{
 	color: #333;
@@ -138,6 +138,9 @@ li{
 	opacity: 1;
 }
 .info h3 a:hover{
+	color: #fff222
+}
+.info p a:hover{
 	color: #fff222
 }
 
