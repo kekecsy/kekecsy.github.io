@@ -88,7 +88,7 @@ li{
 .nav ul li a:hover{
 	color: #ce8460;
 }
-.nav ul li extra-nav{
+.nav ul li ul{
 	display: none;
 	position: absolute;
 	top: 0px;
@@ -97,7 +97,7 @@ li{
 	padding: 10px;
 	width: 200px;
 }
-.nav>ul>li:hover extra-nav{
+.nav>ul>li:hover ul{
 	display: block;
 	text-decoration: none;
 	font-weight: normal;
