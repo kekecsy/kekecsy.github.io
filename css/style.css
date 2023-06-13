@@ -30,14 +30,16 @@ li{
 }
 .info h3{
 	height: 140px;
-	font size: 22px;
+	font size: 30px;
+	text-align: center;
 	color: #fff;
 	margin: 0 30px;
 	padding-top: 45px;
 }
 .info p {
 	opacity: 0;
-	font-size: 12px;
+	font-size: 30px;
+	text-align: center;
 	color:  #fff;
 	font-style: italic;
 	margin: 0 30px;
