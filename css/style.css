@@ -97,11 +97,12 @@ li{
 	padding: 10px;
 	width: 200px;
 }
-.nav>ul>li:hover ul{
+.nav>ul>li:hover extra-nav{
+	height: 148px;
 	display: block;
 	text-decoration: none;
 	font-weight: normal;
-	width: 156px;
+	width: 140px;
 	cursor: pointer;
 }
 .banner{
