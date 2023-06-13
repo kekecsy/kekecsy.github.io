@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body{
-	font-size: 16px;
+	font-size: 25px;
 }
 li{
 	list-style: none;
@@ -79,7 +79,7 @@ li{
 }
 .nav>ul>li{
 	position: absolute;
-	margin: 0 20px;
+	margin: 20px 20px;
 	z-index: 2;
 }
 .nav ul li a{
