@@ -71,6 +71,7 @@ li{
 	width: 100%;
 	border-top: 1px solid #CCCCCC;
 	border-bottom: 1px solid #CCCCCC;
+	z-index: 2;
 }
 .nav>ul{
 	display: flex;
@@ -80,7 +81,6 @@ li{
 .nav>ul>li{
 	position: absolute;
 	margin: 20px 20px;
-	z-index: 2;
 }
 .nav ul li a{
 	color: #333;
