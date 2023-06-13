@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body{
-	font-size: 25px;
+	font-size: 30px;
 }
 li{
 	list-style: none;
@@ -80,7 +80,7 @@ li{
 }
 .nav>ul>li{
 	position: absolute;
-	margin: 20px 20px;
+	margin: 0px 20px;
 }
 .nav ul li a{
 	color: #333;
@@ -95,8 +95,9 @@ li{
 	top: 0px;
 	left: 0px;
 	background: #f2f2f2;
-	padding: 10px;
-	width: 200px;
+	padding: 15px;
+	width: 180px;
+	z-index: 2;
 }
 .nav>ul>li:hover ul{
 	display: block;
