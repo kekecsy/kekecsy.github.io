@@ -77,9 +77,8 @@ li{
 	padding: 20px 0;
 }
 .nav>ul>li{
-	position: absolute;
+	position: relative;
 	margin: 0 20px;
-	transition: all .4s ease-in-out;
 }
 .nav ul li a{
 	color: #333;
@@ -103,6 +102,7 @@ li{
 	font-weight: normal;
 	width: 156px;
 	cursor: pointer;
+	transition: all .4s ease-in-out .4s;
 }
 .banner{
 	width: 100%;
