@@ -104,6 +104,23 @@ li{
 	width: 156px;
 	cursor: pointer;
 }
+.banner{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.voicecover{
+	float: left;
+}
+.voiceframe{
+	width: 1580px;
+	height: 230px;
+	border: 1px solid #ccc;
+	margin-left: auto;
+	margin-right: auto;
+}
 .voiceintro{
 	width: 880px;
 	height: 200px;
