@@ -95,7 +95,7 @@ li{
 	top: 0px;
 	left: 0px;
 	background: #f2f2f2;
-	padding: 10px;
+	padding: 13px;
 	width: 200px;
 }
 .nav>ul>li:hover ul{
@@ -104,6 +104,7 @@ li{
 	font-weight: normal;
 	width: 156px;
 	cursor: pointer;
+	transition: all .4s ease-in-out .4s;
 }
 .banner{
 	width: 100%;
