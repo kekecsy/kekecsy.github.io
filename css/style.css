@@ -41,9 +41,9 @@ li{
 	transition: all .4s ease-in-out;
 }
 .castvoiceframe p{
-	width: 880px;
+	width: 800px;
 	height: 200px;
-	float: left;
+	float: center;
 	padding: 4px;
 }
 .info h3{
@@ -142,7 +142,6 @@ li{
 .voiceintro{
 	width: 880px;
 	height: 200px;
-	float: left;
 	padding: 4px;
 }
 .item:hover{
