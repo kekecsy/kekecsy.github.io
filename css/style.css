@@ -38,7 +38,6 @@ li{
 .castvoiceframe img { 
 	border-radius: 50%;
 	box-shadow: inset 0 0 0 16px rgba(255,255,255,.6), 0 1px 2px rgba(0,0,0, .1);
-	transition: all .4s ease-in-out;
 }
 .castvoiceframe p{
 	width: 800px;
