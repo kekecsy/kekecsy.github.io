@@ -43,7 +43,6 @@ li{
 .castvoiceframe p{
 	width: 800px;
 	height: 200px;
-	float: center;
 	padding: 4px;
 }
 .info h3{
@@ -142,6 +141,7 @@ li{
 .voiceintro{
 	width: 880px;
 	height: 200px;
+	float: left;
 	padding: 4px;
 }
 .item:hover{
