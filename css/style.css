@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 16px;
+}
+li{
+	list-style: none;
+}
+.info{
+	opacity: 0;
+	transform: scale(0);
+	position: absolute;
+	width: 100%;
+	height:100%;
+	background: rgba(63,147,147,.8);
+	border-radius: 50%;
+	text-align: center;
+	transition: all .4s ease-in-out;
+}
+.info h3 a:hover{
+	color: #fff222
+}
+.info p a:hover{
+	color: #fff222
+}
+.info h3{
+	height: 200px;
+	font size: 30px;
+	text-decoration: none;
+	color: #fff;
+	margin: 0 30px;
+	padding-top: 45px;
+}
+.info p {
+	opacity: 0;
+	height: 200px;
+	font-size: 30px;
+	text-decoration: none;
+	color:  #fff;
+	font-style: italic;
+	margin: 0 30px;
+	padding-top: 10px;
+	border-top: 1px solid rgba(255,255,255，.5);
+	transition: all .4s ease-in-out .4s;
+}
+.info a {
+	display: block;
+	color: #fff;
+	font-style: normal;
+}
+
+.logo{
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
+.logo h4{
+	font-size: 35px;
+	letter-spacing: 2px;
+	margin-top: 20px;
+}
+.item{
+	position: relative;
+	width: 980px;
+	height: 980px;
+	background: url(../background/1.jpg) no-repeat;
+	border-radius: 50%;
+	box-shadow: inset 0 0 0 16px rgba(255,255,255,.6), 0 1px 2px rgba(0,0,0, .1);
+	transition: all .4s ease-in-out;
+}
+.item:hover{
+	box-shadow: inset 0 0 0 1px rgba(255,255,255,.1), 0 1px 2px 0 rgba(0,0,0,.1);
+}
+.item:hover .info{
+	opacity: 1;
+	transform: scale(1);
+}
+.item:hover .info p{
+	opacity: 1;
+}
+/*--------------nav-----------------*/
+.nav{
+	width: 100%;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	box_shadow: 0 1px 2px #666;
+}
+.nav>ul{
+	display: flex;	
+	justify-content: center;
+	padding: 20px 0;
+}
+.nav>ul>li{
+	float: center;
+	text-align: center;
+	position: relative;
+	margin: 0 20px;
+}
+.nav ul li a{
+	color: #333;
+	text-decoration: none;
+}
+.nav ul li a:hover{
+	color: #ce8460;
+}
+.nav ul li ul{
+	z-index: 10;
+	display: none;
+	position: absolute;	
+	background: #f2f2f2;
+	padding: 13px;
+	width: 100px;
+	transition: all .4s ease-in-out .4s;
+}
+.nav>ul>li:hover ul{
+	display: block;
+	text-decoration: none;
+	font-weight: normal;
+	width: 100px;
+	cursor: pointer;	
+}
+
+/*----------------banner----------------*/
+.banner{
+	width: 100%;
+	height: 100%;
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+}
+
+/*----------------voice------------------*/
+.castvoiceframe{
+	width: 1580px;
+	height: 230px;
+	border: 1px solid #ccc;
+	margin-left: auto;
+	margin-right: auto;
+}
+.castvoiceframe img {
+	float: left;
+	margin-left: 40px;
+	margin-right: 40px;
+	border-radius: 50%;
+	box-shadow: inset 0 0 0 16px rgba(255,255,255,.6), 0 1px 2px rgba(0,0,0, .1);
+}
+.castvoiceframe p{
+	width: 900px;
+	height: 220px;
+	padding: 4px;
+	line-height: 30px;
+}
+
+.castvoiceframe h2 a{
+	margin-left: 10px;
+}
+/*翻译界面*/
+.voiceframe{
+	width: 1580px;
+	height: 230px;
+	border: 1px solid #ccc;
+	margin-left: auto;
+	margin-right: auto;
+}
+.voicecover{
+	float: left;
+}
+.voiceframe img{
+	border: 1px solid #ccc;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top：20px;
+}
+/*----------------galgame-------------------*/
+.creator{
+	border: 1px solid #ccc;
+	margin-left: auto;
+	margin-right: auto;
+/*	width: 1580px;
+	height: 230px;	*/
+}
+.creator h2{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.creator h2 a{
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 20px;
+}
+.creator img {
+	float: left;
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 15%;
+	border-radius: 50%;
+	box-shadow: inset 0 0 0 16px rgba(255,255,255,.6), 0 1px 2px rgba(0,0,0, .1);
+}
+.creator another_name{
+	margin-left: 40px;
+	margin-right: 40px;
+	color: #cccccc;
+	font-size: 15px;
+}
+.creator p{
+	margin-left: 40px;
+	margin-right: 40px;
+	padding: 4px;
+	line-height: 40px;
+}
+.creator p audio{
+	margin-left: 40px;
+	display: none;
+}
+.creator p:hover audio{
+	margin-left: 40px;
+	display: inline;
+}
+.creator p time{
+	margin-left: 40px;
+	color: #cccccc;
+	font-size: 15px;
+}
+.creator p detail{
+	font-family: "simsun";
+	color: #cccccc;
+	font-size: 15px;
+	display: none;
+}
+.creator p:hover detail{
+	display: block;
+	margin-right: auto;
+	color: #111111;
+	font-size: 15px;
+	line-height: 22px;
+
+}
+/*------------------diary-------------------*/
+.diary{
+	border: 1px solid #ccc;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1580px;
+	height: 230px;
+}
+.diary img {
+	float: left;
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 15%;
+	border-radius: 50%;
+	box-shadow: inset 0 0 0 16px rgba(255,255,255,.6), 0 1px 2px rgba(0,0,0, .1);
+}
+.diary time{
+	color: #cccccc;
+	font-size: 15px;
+}
+.diary p{
+	padding: 4px;
+	line-height: 40px;
+}
