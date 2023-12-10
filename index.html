@@ -5,13 +5,38 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>这里是咳咳csy的网站(｀・ω・´)</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
 	</head>
 	<body>
 		<div class="logo">
-			<img src="./logo/1.jpg">
+			<img src="./background/logo/1.jpg"></img>
 			<h4>咳咳csy的二次元小屋</h4>
 		</div>
+		<div class="music-container" id="music-container">
+			<div class="music-info">
+				<h4 id="title"></h4>
+				<div class="progress-container" id="progress-container">
+					<div class="progress" id="progress"></div>
+				</div>
+			</div>
+			<audio src="./background/music/yutaka hirasaka - eau.mp3" id="audio"></audio>
+			<div class="img-container">
+				<img src="./background/cover/yutaka hirasaka - eau.mp3" alt="music-cover" id="music-cover">
+			</div>
+			<div class="navigation">
+				<button id="prev" class="action-btn">
+					<i class="fas fa-backward"></i>
+				</button>
+				<button id="play" class="action-btn action-btn-big">
+					<i class="fas fa-play"></i>
+				</button>
+				<button id="next" class="action-btn">
+					<i class="fas fa-forward"></i>
+				</button>
+			</div>
+		</div>
+		<script src="./css/script.js"></script>
 		<!-- 导航开始 -->
 		<div class="nav">
 			<ul>
@@ -29,6 +54,7 @@
 			</ul>
 		</div>
 		<!-- 导航结束 -->
+
 		<div class="banner">
 			<div class="item">
 				<div class="info">
@@ -37,5 +63,6 @@
 				</div>
 			</div>
 		</div>
+
 	</body>
 </html>
