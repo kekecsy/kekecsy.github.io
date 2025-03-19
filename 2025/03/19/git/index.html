@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>hello hexo | Hexo</title>
+  <title>git | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="the first chaptercontent1the second chaptercontent2">
+  <meta name="description" content="git 的一般使用1. Vscode辅助下的git使用因为自己暂时还未进入团队协作使用git一般需要长期像追剧一样看大团队好项目的代码更新时需要使用的git命令git clone https:&#x2F;&#x2F;github.com&#x2F;huggingface&#x2F;transformers.git在克隆完项目后，一般需要切换到项目目录下，cd transformers，这时可以就进入到git目录内，文件夹内有.git文件">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hello hexo">
-<meta property="og:url" content="http://example.com/2025/03/19/hello-hexo/index.html">
+<meta property="og:title" content="git">
+<meta property="og:url" content="http://example.com/2025/03/19/git/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="the first chaptercontent1the second chaptercontent2">
+<meta property="og:description" content="git 的一般使用1. Vscode辅助下的git使用因为自己暂时还未进入团队协作使用git一般需要长期像追剧一样看大团队好项目的代码更新时需要使用的git命令git clone https:&#x2F;&#x2F;github.com&#x2F;huggingface&#x2F;transformers.git在克隆完项目后，一般需要切换到项目目录下，cd transformers，这时可以就进入到git目录内，文件夹内有.git文件">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2025-03-19T09:43:15.000Z">
-<meta property="article:modified_time" content="2025-03-19T09:49:52.241Z">
+<meta property="article:published_time" content="2025-03-19T11:00:40.785Z">
+<meta property="article:modified_time" content="2025-03-19T11:01:45.312Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -154,27 +154,34 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-hexo" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-git" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      hello hexo
+      git
     </h1>
   
 
         
-        <a href="/2025/03/19/hello-hexo/" class="archive-article-date">
-  	<time datetime="2025-03-19T09:43:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2025-03-19</time>
+        <a href="/2025/03/19/git/" class="archive-article-date">
+  	<time datetime="2025-03-19T11:00:40.785Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2025-03-19</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="the-first-chapter"><a href="#the-first-chapter" class="headerlink" title="the first chapter"></a>the first chapter</h1><h2 id="content1"><a href="#content1" class="headerlink" title="content1"></a>content1</h2><h1 id="the-second-chapter"><a href="#the-second-chapter" class="headerlink" title="the second chapter"></a>the second chapter</h1><h2 id="content2"><a href="#content2" class="headerlink" title="content2"></a>content2</h2>
+        <h1 id="git-的一般使用"><a href="#git-的一般使用" class="headerlink" title="git 的一般使用"></a>git 的一般使用</h1><h2 id="1-Vscode辅助下的git使用"><a href="#1-Vscode辅助下的git使用" class="headerlink" title="1. Vscode辅助下的git使用"></a>1. Vscode辅助下的git使用</h2><p>因为自己暂时还未进入团队协作使用<code>git</code><br>一般需要长期像追剧一样看大团队好项目的代码更新时需要使用的git命令<br><code>git clone https://github.com/huggingface/transformers.git</code><br>在克隆完项目后，一般需要切换到项目目录下，<code>cd transformers</code>，这时可以就进入到git目录内，文件夹内有<code>.git</code>文件，这个文件就是git的仓库，我们可以对仓库进行各种操作。</p>
+<h3 id="查看当前仓库状态："><a href="#查看当前仓库状态：" class="headerlink" title="查看当前仓库状态："></a><strong>查看当前仓库状态：</strong></h3><p><code>git status</code>  </p>
+<h3 id="查看当前分支："><a href="#查看当前分支：" class="headerlink" title="查看当前分支："></a><strong>查看当前分支：</strong></h3><p><code>git branch</code><br><code>Vscode</code>会自动识别当前分支，并显示在左下角。在团队协作中可能可以在应用插件中下载<code>git graph</code>，可以直观的看到分支之间的合并关系，这个插件还可以看到源代码是否更新了。</p>
+<h3 id="获取远程的最新代码："><a href="#获取远程的最新代码：" class="headerlink" title="获取远程的最新代码："></a><strong>获取远程的最新代码：</strong></h3><p><code>git fetch origin</code><br>这个命令是用来从远程仓库拉取最新代码，但是不会自动合并到本地仓库。<br><code>git merge origin/main</code><br>这个命令是用来合并远程仓库的最新代码到<code>origin/main</code>，一般来说在<code>git clone</code>后，本地的<code>branch</code>会自动切换到<code>main</code>分支。</p>
+<h3 id="创建新分支："><a href="#创建新分支：" class="headerlink" title="创建新分支："></a><strong>创建新分支：</strong></h3><p><code>git branch new_branch</code>  </p>
+<p><code>git checkout new_branch</code>  </p>
+<h3 id="切换到新分支"><a href="#切换到新分支" class="headerlink" title="切换到新分支"></a>切换到新分支</h3><h3 id="提交代码："><a href="#提交代码：" class="headerlink" title="提交代码："></a><strong>提交代码：</strong></h3><p><code>git add.</code><br><code>git commit -m &quot;commit message&quot;</code><br><code>git push origin master</code>  </p>
+
       
 
       
@@ -253,7 +260,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2025/03/19/hello-hexo/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2025/03/19/git/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -267,18 +274,18 @@
   
 <nav id="article-nav">
   
-    <a href="/2025/03/19/git/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2025/03/19/launch/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          git
+          Vscode Debug
         
       </div>
     </a>
   
   
-    <a href="/2025/03/19/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2025/03/19/hello-hexo/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">hello hexo</div>
       <i class="icon-circle-right"></i>
     </a>
   
